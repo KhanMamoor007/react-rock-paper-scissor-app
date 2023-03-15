@@ -24,7 +24,7 @@ function App() {
   const reset = () => {
     window.location.reload();
   };
-
+  // eslint-disable-next-line
   useEffect(() => {
     const comboMoves = userChoice + computerChoice;
     if (userPoints <= 4 && computerPoints <= 4) {
@@ -78,14 +78,14 @@ function App() {
           <div className="choice-user">
             <img
               className="user-hand"
-              src={`../images/${userChoice}.png`}
+              src={`./images/${userChoice}.png`}
               alt=""
             />
           </div>
           <div className="choice-computer">
             <img
               className="computer-hand"
-              src={`../images/${computerChoice}.png`}
+              src={`./images/${computerChoice}.png`}
               alt=""
             />
           </div>
@@ -107,8 +107,13 @@ function App() {
         </div>
 
         <div className="result">
-          <h1>Turn Result: {turnResult}</h1>
-          <h1>Final Result: {result}</h1>
+          <h1>
+            Turn Result:
+            <p className="turnResult">{turnResult}</p>
+          </h1>
+          <h1>
+            Final Result: <p className="turnResult">{result}</p>
+          </h1>
         </div>
 
         <div className="button-div">
@@ -154,7 +159,9 @@ export default App;
 //     // return computer choice
 // }
 
+///////////////////////////////////////////////
 ///////////////////////////////
+////////////////
 //CHAT GPT
 
 // const results = {

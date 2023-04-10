@@ -114,7 +114,16 @@ function App() {
             <p className="turnResult">{turnResult}</p>
           </h1>
           <h1>
-            Final Result: <p className="turnResult">{result}</p>
+            Final Result:{" "}
+            <p
+              className={`turnResult ${
+                result.includes("User") || result.includes("Computer")
+                  ? "red"
+                  : ""
+              }`}
+            >
+              {result}
+            </p>
           </h1>
         </div>
 

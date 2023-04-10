@@ -24,7 +24,7 @@ function App() {
   const reset = () => {
     window.location.reload();
   };
-  // eslint-disable-next-line
+
   useEffect(() => {
     const comboMoves = userChoice + computerChoice;
     if (userPoints <= 4 && computerPoints <= 4) {
@@ -70,22 +70,24 @@ function App() {
     }
   }, [computerChoice, userChoice]);
 
+  console.log(`../images/${userChoice}.png`);
+
   return (
     <>
       <div className="App">
-        <h1 className="heading">Rock-Paper-Scrissor</h1>
+        <h1 className="heading">Rock-Paper-Scissor</h1>
         <div className="choice">
           <div className="choice-user">
             <img
               className="user-hand"
-              src={`./images/${userChoice}.png`}
+              src={`../images/${userChoice}.png`}
               alt=""
             />
           </div>
           <div className="choice-computer">
             <img
               className="computer-hand"
-              src={`./images/${computerChoice}.png`}
+              src={`../images/${computerChoice}.png`}
               alt=""
             />
           </div>

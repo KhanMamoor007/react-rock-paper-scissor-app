@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-rock-paper-scissor-app/static/css/main.bdad9bc5.css",
-    "main.js": "/react-rock-paper-scissor-app/static/js/main.f5d52782.js",
+    "main.css": "/react-rock-paper-scissor-app/static/css/main.8d0da004.css",
+    "main.js": "/react-rock-paper-scissor-app/static/js/main.f1d42f1c.js",
     "index.html": "/react-rock-paper-scissor-app/index.html",
-    "main.bdad9bc5.css.map": "/react-rock-paper-scissor-app/static/css/main.bdad9bc5.css.map",
-    "main.f5d52782.js.map": "/react-rock-paper-scissor-app/static/js/main.f5d52782.js.map"
+    "main.8d0da004.css.map": "/react-rock-paper-scissor-app/static/css/main.8d0da004.css.map",
+    "main.f1d42f1c.js.map": "/react-rock-paper-scissor-app/static/js/main.f1d42f1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdad9bc5.css",
-    "static/js/main.f5d52782.js"
+    "static/css/main.8d0da004.css",
+    "static/js/main.f1d42f1c.js"
   ]
 }
